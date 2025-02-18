@@ -227,3 +227,11 @@ nav a:hover {
   font-size: 1rem;
   width: 100%;
 }
+
+.sumber li a {
+  transition: all 0.3s ease-in-out;
+}
+
+.sumber li a:hover {
+  color: rgb(118, 118, 255);
+}
