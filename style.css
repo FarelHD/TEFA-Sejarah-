@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Nunito", serif;
-  background-image: linear-gradient(rgb(0, 0, 0) , rgb(21, 23, 53));
+  background-color: black;
 }
 
 ::-webkit-scrollbar {
@@ -25,7 +25,7 @@ body {
   display: flex;
   background-image: url(./assets/nasa-Q1p7bh3SHj8-unsplash.jpg);
   min-height: 100vh;
-  padding: 3rem;
+  padding: 4rem;
   font-size: 18px;
   color: white;
   justify-content: center;
@@ -64,6 +64,7 @@ body {
 .content-1 p {
   padding: 1.2rem 0;
   padding-top: 0;
+  font-size: 1.3rem;
 }
 
 .content-1 h2 {
@@ -166,11 +167,14 @@ nav a:hover {
 }
 
 .main-content {
-  background-color: rgb(13, 15, 31);
+  background-color: rgba(31, 33, 48, 0.623);
   color: white;
   min-height: 100vh;
   padding: 6rem;
-  border-radius: 5rem;
+  border-radius: 6rem;
+  margin: 8rem;
+  border: white 4px solid;
+  box-shadow: 0 0 10px;
 }
 
 .main-content h2 {
@@ -185,23 +189,38 @@ nav a:hover {
 }
 
 #revolusi1 img {
-  width: 30rem;
-  padding-top: 3rem;
+  width: 40rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
 }
 
 #revolusi2 img {
-  width: 30rem;
-  padding-top: 3rem;
+  width: 40rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #revolusi3 img {
-  width: 30rem;
-  padding-top: 3rem;
+  width: 40rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #revolusi4 img {
-  width: 30rem;
-  padding-top: 3rem;
+  width: 40rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.back {
+  color: white;
+
+}
+
+.back a:hover {
+  color: crimson;
+  font-size: 1.5rem;
 }
 
 .content {
@@ -210,8 +229,26 @@ nav a:hover {
   margin-top: -10vh;
   padding-left: 4rem;
   padding-right: 4rem;
-  display: flex;
+  display: inline;
+  align-items: center;
+  text-align: center;
   justify-content: center;
+}
+
+.content p{
+  text-align: start;
+}
+
+.content h3{
+  text-align: start;
+}
+
+.content li{
+  text-align: start;
+}
+
+.content a{
+  text-align: start;
 }
 
 .main-content h3 {
@@ -257,7 +294,7 @@ nav a:hover {
 }
 
 .card-content {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 .card-wrapper {
@@ -278,7 +315,7 @@ nav a:hover {
 }
 
 .card img {
-  height: 450px;
+  height: 350px;
   width: 100%;
   display: block;
   border-radius: 10px;
